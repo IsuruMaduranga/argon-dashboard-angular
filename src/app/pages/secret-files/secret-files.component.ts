@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-icons',
-  templateUrl: './icons.component.html',
-  styleUrls: ['./icons.component.scss']
+  templateUrl: './secret-files.component.html',
+  styleUrls: ['./secret-files.component.scss']
 })
-export class IconsComponent implements OnInit {
+export class SecretFilesComponent implements OnInit {
 
   public copy: string;
   constructor() { }

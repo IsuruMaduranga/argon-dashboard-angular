@@ -136,11 +136,11 @@ argon-dashboard-angular
 │   │   │   │   ├── login.component.scss
 │   │   │   │   ├── login.component.spec.ts
 │   │   │   │   └── login.component.ts
-│   │   │   ├── maps
-│   │   │   │   ├── maps.component.html
-│   │   │   │   ├── maps.component.scss
-│   │   │   │   ├── maps.component.spec.ts
-│   │   │   │   └── maps.component.ts
+│   │   │   ├── confidential-files
+│   │   │   │   ├── confidential-files.component.html
+│   │   │   │   ├── confidential-files.component.scss
+│   │   │   │   ├── confidential-files.component.spec.ts
+│   │   │   │   └── confidential-files.component.ts
 │   │   │   ├── register
 │   │   │   │   ├── register.component.html
 │   │   │   │   ├── register.component.scss
