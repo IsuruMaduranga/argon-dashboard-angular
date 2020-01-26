@@ -9,9 +9,9 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
 import { SecretFilesComponent } from '../../pages/secret-files/secret-files.component';
 import { ConfidentialFilesComponent } from '../../pages/confidential-files/confidential-files.component';
-import { UserProfileComponent } from '../../pages/user-profile/user-profile.component';
-import { TablesComponent } from '../../pages/tables/tables.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PublicFilesComponent } from 'src/app/pages/public-files/public-files.component';
+import { FileUploadComponent } from 'src/app/pages/file-upload/file-upload.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
@@ -25,10 +25,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   ],
   declarations: [
     DashboardComponent,
-    UserProfileComponent,
-    TablesComponent,
     SecretFilesComponent,
-    ConfidentialFilesComponent
+    ConfidentialFilesComponent,
+    PublicFilesComponent,
+    FileUploadComponent
   ]
 })
 

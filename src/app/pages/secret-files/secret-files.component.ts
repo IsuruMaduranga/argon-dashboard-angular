@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-icons',
+  selector: 'secret-files',
   templateUrl: './secret-files.component.html',
   styleUrls: ['./secret-files.component.scss']
 })
